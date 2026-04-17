@@ -11,6 +11,21 @@ A Sequential Multi-Agent System that automates comprehensive academic research w
 
 ---
 
+## 📖 Table of Contents
+* [Demo](#-demo)
+* [Project Overview](#-project-overview)
+* [Agent Architecture](#-agent-architecture)
+* [Tech Stack](#-tech-stack)
+* [Quickstart](#-quickstart)
+* [Repository Structure](#-repository-structure)
+* [Environment Variables](#-environment-variables)
+* [Dependencies](#-dependencies)
+* [Acknowledgements](#-acknowledgements)
+
+---
+
+
+
 ## 📸 Demo
 
 **Example prompt:** `"How are AI Agents transforming Data Science workflows in 2025?"`
@@ -135,24 +150,16 @@ Open `notebooks/demo.ipynb` in Jupyter or upload it directly to Kaggle. Make sur
 ## 📁 Repository Structure
 
 ```
-academic-research-agent/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── .env.example              # Template for environment variables
-├── requirements.txt          # Pinned dependencies
-├── research_agent/
-│   ├── __init__.py
-│   ├── agent.py              # SequentialAgent pipeline definition
-│   ├── planner.py            # Planner agent
-│   ├── researcher.py         # Researcher agent + tool definitions
-│   └── editor.py             # Editor agent
+adk-research-agents/
+├── assets/
+│   └── agent_architecture.png   # Technical diagram of the pipeline
 ├── notebooks/
-│   └── demo.ipynb            # Full Kaggle notebook (runnable)
-├── outputs/
-│   └── .gitkeep              # Sample report outputs (git-ignored)
-└── assets/
-    └── architecture.png      # Pipeline diagram for README
+│   └── adk_research_agent.ipynb # The complete pipeline & output
+├── .env.example                 # Template for API configuration
+├── .gitignore                   # Prevents sensitive files from being tracked
+├── LICENSE                      # Project license
+├── README.md                    # Project documentation
+└── requirements.txt             # Project dependencies
 ```
 
 ---
