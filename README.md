@@ -75,6 +75,8 @@ Instead of relying on a single LLM prompt — which often produces shallow or ha
 
 ## 🤖 Agent Architecture
 
+![Agent Architecture Diagram](assets/agent_architecture.png)
+
 This project uses a **Sequential Workflow** with three agents and two tools:
 
 | Agent | Role | Tools |
