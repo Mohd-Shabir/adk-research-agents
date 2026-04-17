@@ -5,6 +5,8 @@
 [![Gemini](https://img.shields.io/badge/LLM-Gemini%202.5%20Flash%20Lite-green)](https://deepmind.google/technologies/gemini/)
 [![Google x Kaggle](https://img.shields.io/badge/Google%20x%20Kaggle-AI%20Agents%20Intensive-20BEFF)](https://www.kaggle.com/learn-guide/5-day-agents)
 
+> *Built in 2025 as the Capstone Project for the Google × Kaggle AI Agents Intensive Course.*
+
 A Sequential Multi-Agent System that automates comprehensive academic research workflows. Given a broad topic, the pipeline autonomously breaks it into specific research questions, browses the web for current information, and synthesizes everything into a structured, professional report — complete with real citations.
 
 ---
