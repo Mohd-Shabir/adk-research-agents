@@ -8,9 +8,6 @@
 A Sequential Multi-Agent System that automates comprehensive academic research workflows. Given a broad topic, the pipeline autonomously breaks it into specific research questions, browses the web for current information, and synthesizes everything into a structured, professional report — complete with real citations.
 
 ---
-A Sequential Multi-Agent System that automates comprehensive academic research workflows. Given a broad topic, the pipeline autonomously breaks it into specific research questions, browses the web for current information, and synthesizes everything into a structured, professional report — complete with real citations.
-
----
 
 ## 📸 Demo
 
@@ -105,7 +102,7 @@ The `SequentialAgent` orchestrates strict execution order — the Researcher nev
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/adk-research-agents.git](https://github.com/YOUR_GITHUB_USERNAME/adk-research-agents.git)
+git clone [https://github.com/Mohd-Shabir/adk-research-agents.git](https://github.com/YOUR_GITHUB_USERNAME/adk-research-agents.git)
 cd adk-research-agents
 
 **2. Set up a virtual environment**
@@ -168,7 +165,6 @@ cp .env.example .env
 |---|---|
 | `GOOGLE_API_KEY` | Your Google Gemini API key from [Google AI Studio](https://aistudio.google.com/) |
 
-> ⚠️ Never commit your `.env` file. It is already listed in `.gitignore`.
 
 ---
 
